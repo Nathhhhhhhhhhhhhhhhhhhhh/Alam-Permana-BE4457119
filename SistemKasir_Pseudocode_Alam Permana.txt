@@ -1,0 +1,47 @@
+program sistem kasir 
+
+
+total_cost = 0
+discount = 0
+admin_fee = 0
+
+def lookup_item (barcode):
+     prices = {} [enter barcode's dictionary]
+     return item_get
+
+while True:
+     barcode = input("scan item or enter done to finish or enter del to remove item: ")
+     if barcode == "done":
+	break
+     if barcode == "del"
+ 	remove item that's chosen
+     if barcode is null :
+        print("invalid barcode. please try again.")
+     else :
+	total_cost += price
+        print (item added :" total_cost)
+
+membership_card = input("Enter a membership card number (or press enter to skip): ")
+if membership_card == ""[membership's library]:
+    discount = total_cost * [discount percentage]
+    print("Membership discount applied: " discount )
+
+discount_code = input("Enter a discount code (or press enter to skip): ")
+if discount_code == "" [discount code library]:
+    discount += total_cost * [discount percentage]
+    print("Discount applied: " discount)
+	
+
+pay_by_credit_card = input("Pay by credit card? (y/n): ")
+if pay_by_credit_card == "y":
+    admin_fee = [admin fee depends on payment method]
+    total_cost += admin_fee
+    print("Admin fee applied: " admin_fee )
+
+print("Total cost: "total_cost)
+if discount > 0:
+    print("Discount: " discount)
+if admin_fee > 0:
+    print("Admin fee: " admin_fee)
+print("Amount paid: " amount_paid)
+print("Change due: " change_due)
